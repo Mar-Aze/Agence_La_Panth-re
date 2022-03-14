@@ -569,6 +569,22 @@ h4 {
 
 .white {
     font-size: 14px;
+    color: white;
+}
+
+.dark-background {
+    background-color: #360F0F;
+    opacity: 0.8;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: auto;
+    width: 60%;
+    text-align: center;
 }
 
 .portfolio-thumb {
