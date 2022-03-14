@@ -541,11 +541,21 @@ h2 {
     color: white;
 }
 
+.h2-green {
+    color: #13493E;
+}
+
 h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
     color: #360F0F;
+}
+
+.quote-style {
+    color: #13493E;
+    font-style: italic;
+    font-size: 1.2em;
 }
 
 .med-width-whitespace {
