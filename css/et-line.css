@@ -18,7 +18,8 @@
     line-height: 1;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    display: inline-block
+    display: inline-block;
+    color: #13493E;
 }
 
 .et-icon-browser:before {
