@@ -738,13 +738,27 @@ h4 {
     }
 }
 
+@media (max-width: 350px) {
+    .img-responsive {
+        max-width: 290px;
+        margin: 40px auto;
+    }
+}
+
+@media (min-width: 351px) and (max-width: 767px) {
+    .img-responsive {
+        max-width: 320px;
+        margin: 40px auto;
+    }
+}
+
 @media (max-width: 767px) {
     .page-container {
         overflow-x: hidden;
         position: relative;
     }
     h1,
-    h2,
+    h2, 
     h3,
     h4,
     h5,
