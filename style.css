@@ -118,6 +118,17 @@ a:hover {
     padding-left: 0;
 }
 
+.form-display {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.bloc-padding {
+    padding:0;
+}
+
 #bloc-1-hero h1 {
     font-size: 32px;
 }
