@@ -7,6 +7,10 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.bigscreen {
+    max-width: 1620px;
+    margin: auto;
+}
 a,
 button {
     transition: all .3s ease-in-out;
@@ -751,7 +755,7 @@ h4 {
 
 @media (max-width: 350px) {
     .img-responsive {
-        max-width: 290px;
+        max-width: 260px;
         margin: 40px auto;
     }
 }
